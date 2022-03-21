@@ -1,0 +1,44 @@
+.mainPage{
+    height: 721px;
+    width: 100vw;
+    overflow: hidden;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 500px;
+    background-image: url('../images/background.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 89%;
+
+}
+
+.leftDiv{
+    background-color: #273e47;
+
+    min-height: 50%;
+   transform: skewY(40deg);
+   overflow: hidden;
+}
+
+.rightDiv{  
+    background-color: #bd632f;
+    
+    min-height: 50%;
+    transform: skewY(40deg);
+    overflow: hidden;
+}
+   
+
+
+@keyframes move-twink-back {
+	from {background-position:0 0;}
+	to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+	from {background-position:0 0;}
+	to {background-position:10000px 0;}
+}
